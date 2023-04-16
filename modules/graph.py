@@ -1,5 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+import tkinter as tk
 
 
 def build(edges):
@@ -11,7 +12,7 @@ def build(edges):
 
 
     Returns:
-        graph: Um dicionário de dicionários representando o grafo. 
+        graph: Um dicionário de dicionários representando o grafo.
 
     """
     graph = {}
@@ -60,3 +61,18 @@ def show_route(graph, route):
     nx.draw_networkx_edges(G, pos, edgelist=path_edges,
                            edge_color='r', width=3)
     plt.show()
+
+
+def print_path_route(start, target, distance, route, window):
+    label = tk.Label(
+        window, text=f"Distância mínima de {start} até {target}: {distance}")
+    label.pack()
+    label = tk.Label(
+        window, text=f"Seguindo o caminho:")
+    label.pack()
+
+    for index in range(len(route)):
+        if route[index] != target:
+            label = tk.Label(
+                window, text=f"-> De {route[index]} para {route[index + 1]}")
+            label.pack()
