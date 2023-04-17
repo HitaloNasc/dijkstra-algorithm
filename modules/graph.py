@@ -42,7 +42,7 @@ def show_route(graph, route):
 
 
     Returns:
-
+        um gráfico mostrando a rota passada como parâmetro.
     """
     G = nx.Graph()
 
@@ -64,6 +64,20 @@ def show_route(graph, route):
 
 
 def print_path_route(start, target, distance, route, window):
+    """
+    Imprime na interface gráfica o caminho passado como parâmetro.
+
+    Args:
+        start (string): um nó pertecente ao grafo.
+        target (string): um nó pertecente ao grafo.
+        distance (int): a distância entre os nós.
+        route (list): uma lista de nós conectados.
+        window (tk.Tk): interface gráfica
+
+
+    Returns:
+        um gráfico mostrando a rota passada como parâmetro.
+    """
     label = tk.Label(
         window, text=f"Distância mínima de {start} até {target}: {distance}")
     label.pack()
