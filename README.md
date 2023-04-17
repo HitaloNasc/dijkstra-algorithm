@@ -46,6 +46,7 @@ dijkstra-algorithm
 
 1. Abra o notebook
 2. Escolha o nó de partida e o nó de chegada atribuindo as variáveis node_a e node_b
+  <img src="./assets/notebook-set-node.png" />
 3. Execute o notebook
 4. Acompanhe os resultados
   4.1 Rota percorrida
