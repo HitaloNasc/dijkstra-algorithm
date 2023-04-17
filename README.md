@@ -7,8 +7,8 @@
 ##
 
 <p align="center">
-  <img align="center" src='https://img.shields.io/badge/Status-in%20progress-blue' />
-  <img align="center" src='https://img.shields.io/badge/version-0.1-blue' />
+  <img align="center" src='https://img.shields.io/badge/Status-complete-green' />
+  <img align="center" src='https://img.shields.io/badge/version-1-blue' />
   <img align="center" src='https://img.shields.io/badge/release%20date-abr/2023-blue' />
 </p>
 
