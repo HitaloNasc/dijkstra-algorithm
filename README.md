@@ -32,7 +32,6 @@ dijkstra-algorithm
 ├── main.py
 └── modules
    ├── __init__.py
-   ├── __pycache__
    ├── data.py
    ├── dijkstra.py
    ├── graph.py
